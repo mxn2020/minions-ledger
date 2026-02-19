@@ -1,10 +1,10 @@
-# minions-ledger — Finance & Ledger Implementation Prompt
+**MINIONS LEDGER — FINANCE & LEDGER**
 
 You are tasked with building **minions-ledger**, a structured financial record-keeping and accounting system built on the Minions SDK. This is a structured approach to bookkeeping, budgeting, and financial analysis designed for small businesses, startups, and AI agents.
 
 ---
 
-## Project Overview
+**PROJECT OVERVIEW**
 
 **minions-ledger** provides structured financial record-keeping with double-entry bookkeeping, budget tracking, forecasting, and tax categorization. Unlike traditional accounting software, every transaction, account, and budget is a structured minion that can be queried, related, versioned, and manipulated by agents.
 
@@ -103,7 +103,7 @@ from minions import (
 
 ---
 
-## Core Primitives
+**CORE PRIMITIVES**
 
 The system is built from these minion types:
 
@@ -237,7 +237,7 @@ A classification for transactions, expenses, or budgets.
 
 ---
 
-## Beyond the Standard Pattern
+**BEYOND THE STANDARD PATTERN**
 
 ### 1. Double-Entry Bookkeeping
 
@@ -428,7 +428,7 @@ ledger runway-scenarios --revenue-increase 10000 --expense-reduction 5000
 
 ---
 
-## Dual SDK Support (TypeScript + Python)
+**DUAL SDK SUPPORT (TYPESCRIPT + PYTHON)**
 
 Both SDKs provide identical functionality:
 
@@ -466,7 +466,7 @@ forecast = forecaster.forecast(6)  # 6-month forecast
 
 ---
 
-## CLI Commands
+**CLI COMMANDS**
 
 The `ledger` CLI extends the base `minions` CLI with financial management commands.
 
@@ -537,7 +537,7 @@ ledger imbalances
 
 ---
 
-## Documentation Site
+**DOCUMENTATION SITE**
 
 Built with **Astro Starlight** with dual-language SDK examples.
 
@@ -576,7 +576,7 @@ Every code example includes both TypeScript and Python tabs.
 
 ---
 
-## Agent Use Cases
+**AGENT USE CASES**
 
 **Automated Bookkeeping:**
 An agent imports bank statements, categorizes transactions, and reconciles accounts automatically.
@@ -598,7 +598,7 @@ An agent tracks unpaid invoices, sends payment reminders, and reconciles payment
 
 ---
 
-## Project Structure
+**PROJECT STRUCTURE**
 
 ```
 minions-ledger/
@@ -660,7 +660,7 @@ minions-ledger/
 
 ---
 
-## Tone and Positioning
+**TONE & POSITIONING**
 
 **minions-ledger** is a structured financial management system designed for small businesses, startups, and AI-native workflows. The messaging should emphasize:
 
@@ -675,7 +675,7 @@ The docs should speak to small business owners, startup founders, and finance te
 
 ---
 
-## Success Criteria
+**SUCCESS CRITERIA**
 
 You will know this implementation is successful when:
 
