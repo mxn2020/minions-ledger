@@ -434,7 +434,7 @@ Both SDKs provide identical functionality:
 
 **TypeScript:**
 ```typescript
-import { TransactionBuilder, Forecaster, RunwayCalculator } from 'minions-ledger';
+import { TransactionBuilder, Forecaster, RunwayCalculator } from '@minions-ledger/sdk';
 
 const transaction = new TransactionBuilder()
   .withDate(new Date())
